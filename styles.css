@@ -1,0 +1,130 @@
+header {
+    display:flex;
+    font-size:15px;
+    height:35px;
+    font-family:arial,sans-serif;
+}
+header .right-side {
+    display:flex;
+    margin: 0 0 0 auto;
+}
+header .left-side {
+    display:flex; 
+}
+header .left-side .about {
+    margin-left:20px;
+}
+header .left-side .store {
+    margin-left:20px;
+}
+header .right-side .gmail {
+    margin-right:20px;
+}
+header .right-side .images {
+    margin-right:20px;
+}
+.sign-in {
+    background-color: rgb(38, 91, 235);
+    color:white;
+    border-radius:5px;
+    margin-right:10px;
+    border-color:transparent;
+    font-weight:bold;
+    border-width:1px
+}
+.google-image {
+    transform:scale(.5);
+    display:flex;
+    justify-content:center;
+    position:relative;
+    top:25px;
+}
+.google-container {
+    /*background-color: gray;*/
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin-top:120px;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+.search1 {
+    display:flex;
+    justify-content:center;
+}
+.search2 {
+    border-radius: 30px;
+    font-size:20px;  
+    padding:10px 10px 10px 10px; 
+    font-family:arial,sans-serif;
+    border-color:rgba(160, 160, 160, 0.151);  
+}
+.search-buttons {
+    display:flex;
+    justify-content:center;
+    padding-top:25px;
+    font-family:arial,sans-serif;
+}
+.google-search{
+    margin-right:20px;
+}
+.gsbutton {
+    font-size:15px;
+    color:rgb(77, 77, 77);
+    padding: 8px 8px 8px 8px;
+    border-color: transparent;
+    cursor:pointer;
+    background-color:rgb(242,242,242);
+    border-radius:4px;
+}
+.flbutton {
+    font-size:15px;
+    color:rgb(77, 77, 77);
+    padding: 8px 8px 8px 8px;
+    border-color:transparent;
+    cursor:pointer;
+    background-color:rgb(242,242,242);
+    border-radius:4px;
+}
+footer {
+    display:flex;
+    position:fixed;
+    flex-direction:row;
+    background-color: rgb(233, 233, 233);
+    font-family:arial,sans-serif;
+    border-top-width:1px;
+    border-top-color:rgba(202, 202, 202, 0.24);
+    border-top-style:solid;
+    left:0;
+    right:0;
+    bottom:0;
+}
+footer .left-footer {
+    display:flex;
+    color:rgb(102, 102, 102);
+}
+footer .right-footer {
+    display:flex;
+    margin: 0 0 0 auto;
+    color:rgb(102, 102, 102);
+}
+footer .left-footer .advertising {
+    margin-left:20px;
+}
+footer .left-footer .business {
+    margin-left:20px;
+}
+footer .left-footer .how-search-works {
+    margin-left:20px;
+}
+footer .right-footer .privacy {
+    margin-right:20px;
+}
+footer .right-footer .terms {
+    margin-right:20px;
+}
+footer .right-footer .settings {
+    margin-right:20px;
+}
