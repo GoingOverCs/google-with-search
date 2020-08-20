@@ -3,6 +3,7 @@ header {
     font-size:15px;
     height:35px;
     font-family:arial,sans-serif;
+    margin-top: 20px;
 }
 header .right-side {
     display:flex;
@@ -30,7 +31,8 @@ header .right-side .images {
     margin-right:10px;
     border-color:transparent;
     font-weight:bold;
-    border-width:1px
+    border-width:1px;
+    cursor: pointer;
 }
 .google-image {
     transform:scale(.5);
@@ -88,6 +90,14 @@ body {
     background-color:rgb(242,242,242);
     border-radius:4px;
 }
+a {
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(134, 134, 134);
+}
 footer {
     display:flex;
     position:fixed;
@@ -100,15 +110,18 @@ footer {
     left:0;
     right:0;
     bottom:0;
+    padding-bottom: 15px;
 }
 footer .left-footer {
     display:flex;
     color:rgb(102, 102, 102);
+    margin-top: 15px;
 }
 footer .right-footer {
     display:flex;
     margin: 0 0 0 auto;
     color:rgb(102, 102, 102);
+    margin-top: 15px;
 }
 footer .left-footer .advertising {
     margin-left:20px;
